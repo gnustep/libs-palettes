@@ -16,7 +16,7 @@
 
   if([(id<IB>)NSApp isTestingInterface] == NO)
     {
-      float dot_dash[] = {1.0, 1.0};
+      CGFloat dot_dash[] = {1.0, 1.0};
       NSGraphicsContext *ctxt = GSCurrentContext();
 
       // Draw a green box;
